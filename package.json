@@ -1,0 +1,13 @@
+{
+  "name": "automationpontoeletronico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^8.2.0"
+  },
+  "scripts": {
+    "web": "cypress open",
+    "start": "cypress run --record --key 95bd3091-ca15-439e-8276-e6f151773f76"
+  }
+}
