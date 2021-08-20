@@ -32,6 +32,6 @@ describe('Login in platform', () => {
 describe('LogOut in platform', () => {
   it('Should logout in platform', () => {
     cy.get('.ui > .dropdown').click();
-    cy.get('.right > .ui').children().should('have.length', 1).click();
+    cy.get('.right > .ui > .menu > .item').click();
   });
 });
