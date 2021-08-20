@@ -29,7 +29,7 @@ describe('Login in platform', () => {
   });
 });
 
-describe('LogOut in platform', () => {
+describe('Logout platform', () => {
   it('Should logout in platform', () => {
     cy.get('.ui > .dropdown').click();
     cy.get('.right > .ui > .menu > .item').click();
