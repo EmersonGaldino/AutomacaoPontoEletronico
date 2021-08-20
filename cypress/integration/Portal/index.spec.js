@@ -34,4 +34,9 @@ describe('Logout platform', () => {
     cy.get('.ui > .dropdown').click();
     cy.get('.right > .ui > .menu > .item').click();
   });
+
+  it('Should logout ERROR platform', () => {
+    cy.get('.ui > .dropdown').click();
+    cy.get('.right > .ui > .item').click();
+  });
 });
